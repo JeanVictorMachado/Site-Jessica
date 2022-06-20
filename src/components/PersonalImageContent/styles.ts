@@ -1,4 +1,4 @@
-import { chakra, Box, Image, Flex, Text } from '@chakra-ui/react'
+import { chakra, Box, Image, Flex, Text, Link } from '@chakra-ui/react'
 
 export const Container = chakra(Flex, {
   baseStyle: {
@@ -48,6 +48,33 @@ export const ResumeText = chakra(Text, {
     fontWeight: 700,
     color: '#E6E6E6',
     textAlign: 'initial',
+  },
+})
+
+export const LinkInstaContainer = chakra(Link, {
+  baseStyle: {
+    display: 'flex',
+    alignItems: 'center',
+    _hover: {
+      transition: 'all ease .3s',
+      filter: 'brightness(0.9)',
+    },
+  },
+})
+
+export const ImageInsta = chakra(Image, {
+  baseStyle: {
+    width: 12,
+    marginTop: 4,
+  },
+})
+
+export const ImageText = chakra(Text, {
+  baseStyle: {
+    color: '#E6E6E6',
+    fontSize: 18,
+    marginTop: 4,
+    marginLeft: 2,
   },
 })
 

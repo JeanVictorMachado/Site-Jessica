@@ -1,4 +1,4 @@
-import { Flex, Modal, ModalOverlay, Text } from '@chakra-ui/react'
+import { Modal, ModalOverlay } from '@chakra-ui/react'
 
 import * as S from './styles'
 
@@ -20,64 +20,21 @@ export const InitialModal = ({ isOpen, onClose }: GridIconsModalProps) => {
 
       <S.ModalContentChakra>
         <S.ModalBodyChakra>
-          <Text fontSize={24} fontWeight={700} marginBottom={6} lineHeight='26px' marginTop={-2}>
-            Selecione uma das opçôes
-          </Text>
+          <S.TitleModal>Selecione uma das opçôes</S.TitleModal>
 
-          <Flex
-            width='100%'
-            height='70px'
-            fontSize={22}
-            fontWeight={700}
-            background='linear-gradient(210deg, #040c18, #3C0816 220%)'
-            color='#B6B6B6'
-            borderRadius={16}
-            marginBottom={4}
-            paddingX={4}
-            lineHeight='24px'
-            alignItems='center'
-            justifyContent='center'
-            textAlign='center'
-            filter='brightness(2)'
-            cursor='pointer'
-            onClick={() => handleClick()}
-            _hover={{
-              transition: 'all ease .3s',
-              filter: 'brightness(3)',
-            }}
-          >
-            <Flex marginTop={0.5} marginRight={3}>
+          <S.ButtonModal marginBottom={4} onClick={() => handleClick()}>
+            <S.IconButton>
               <FaArrowAltCircleRight color='#B6B6B6' />
-            </Flex>
+            </S.IconButton>
             Estou iniciando no Market Digital!
-          </Flex>
+          </S.ButtonModal>
 
-          <Flex
-            width='100%'
-            height='70px'
-            fontSize={22}
-            fontWeight={700}
-            background='linear-gradient(210deg, #040c18, #3C0816 220%)'
-            color='#B6B6B6'
-            borderRadius={16}
-            paddingX={4}
-            lineHeight='24px'
-            alignItems='center'
-            justifyContent='center'
-            textAlign='center'
-            filter='brightness(2)'
-            cursor='pointer'
-            onClick={() => handleClick()}
-            _hover={{
-              transition: 'all ease .3s',
-              filter: 'brightness(3)',
-            }}
-          >
-            <Flex marginTop={0.5} marginRight={3}>
+          <S.ButtonModal onClick={() => handleClick()}>
+            <S.IconButton>
               <FaArrowAltCircleRight color='#B6B6B6' />
-            </Flex>
+            </S.IconButton>
             Já faturo com Market Digital!
-          </Flex>
+          </S.ButtonModal>
         </S.ModalBodyChakra>
       </S.ModalContentChakra>
     </Modal>

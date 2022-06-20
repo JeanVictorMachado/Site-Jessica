@@ -1,0 +1,43 @@
+export const Menu = () => {
+  return (
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='30px' height='30px'>
+      <line
+        x1='4'
+        x2='20'
+        y1='12'
+        y2='12'
+        fill='none'
+        stroke='#B6B6B6'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+        strokeMiterlimit='10'
+        strokeWidth='4'
+        opacity='1'
+      />
+      <line
+        x1='4'
+        x2='20'
+        y1='19'
+        y2='19'
+        fill='none'
+        stroke='#f49867'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+        strokeMiterlimit='10'
+        strokeWidth='4'
+      />
+      <line
+        x1='4'
+        x2='20'
+        y1='5'
+        y2='5'
+        fill='none'
+        stroke='#f49867'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+        strokeMiterlimit='10'
+        strokeWidth='4'
+      />
+    </svg>
+  )
+}

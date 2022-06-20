@@ -1,4 +1,4 @@
-import { Image, Link, Text } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
 
 import * as S from './styles'
 
@@ -14,22 +14,11 @@ export const PersonalImageContent = () => (
 
         <S.ResumeText fontSize={20}>Me aconpanhe no Instagram</S.ResumeText>
 
-        <Link
-          href='https://www.instagram.com/jessicalopes.jess/'
-          isExternal
-          display='flex'
-          alignItems='center'
-          _hover={{
-            transition: 'all ease .3s',
-            filter: 'brightness(0.9)',
-          }}
-        >
-          <Image src='icon-instagram.svg' alt='Imagem de Jéssica Lopes.' width={12} marginTop={4} />
+        <S.LinkInstaContainer href='https://www.instagram.com/jessicalopes.jess/' isExternal>
+          <Image src='icon-instagram.svg' alt='Imagem de Jéssica Lopes.' />
 
-          <Text color='#E6E6E6' fontSize={18} marginTop={4} marginLeft={2}>
-            @jessicalopes.jess
-          </Text>
-        </Link>
+          <S.ImageText>@jessicalopes.jess</S.ImageText>
+        </S.LinkInstaContainer>
 
         <S.GirlImage src='menina-no-sofa-2.png' alt='Menina sentada no sofá.' />
       </S.TextContainer>
