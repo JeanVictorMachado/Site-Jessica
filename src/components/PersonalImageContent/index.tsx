@@ -15,7 +15,7 @@ export const PersonalImageContent = () => (
         <S.ResumeText fontSize={20}>Me aconpanhe no Instagram</S.ResumeText>
 
         <S.LinkInstaContainer href='https://www.instagram.com/jessicalopes.jess/' isExternal>
-          <Image src='icon-instagram.svg' alt='Imagem de Jéssica Lopes.' />
+          <S.ImageInsta src='icon-instagram.svg' alt='Imagem de Jéssica Lopes.' />
 
           <S.ImageText>@jessicalopes.jess</S.ImageText>
         </S.LinkInstaContainer>
