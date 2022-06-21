@@ -18,7 +18,7 @@ export const TitleContainer = chakra(Box, {
 
 export const TestimonialTitle = chakra(Text, {
   baseStyle: {
-    maxWidth: '640px',
+    maxWidth: ['350px', '640px', '640px'],
     margin: 'auto',
     paddingLeft: '32px',
     marginBottom: 8,
