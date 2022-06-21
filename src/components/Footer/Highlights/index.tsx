@@ -15,8 +15,10 @@ export const Highlights = () => {
       <Flex marginBottom={6}>
         <Image
           src='primeira-venda.jpg'
+          alt=''
           width='80px'
           height='58px'
+          marginTop={-1}
           borderRadius={10}
           marginRight={3}
         />
@@ -29,8 +31,10 @@ export const Highlights = () => {
       <Flex>
         <Image
           src='atrair-vendas.jpg'
+          alt=''
           width='80px'
           height='58px'
+          marginTop={-1}
           borderRadius={10}
           marginRight={3}
         />

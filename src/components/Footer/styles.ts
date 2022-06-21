@@ -11,7 +11,6 @@ export const Content = chakra(Flex, {
   baseStyle: {
     width: '100%',
     padding: '40px 70px 50px 50px',
-    backgroundImage: 'linear-gradient(210deg, #040c18, #3C0816 220%)',
 
     justifyContent: 'center',
     flexWrap: 'wrap',
@@ -20,10 +19,13 @@ export const Content = chakra(Flex, {
 
 export const Divider = chakra(Box, {
   baseStyle: {
-    marginX: 12,
+    height: '1px',
+    maxWidth: ['250px', '525px', '1080px'],
+    paddingX: '70px',
+    margin: 'auto',
     marginTop: 4,
     marginBottom: '70px',
-    borderBottom: '1px solid #646464',
+    background: 'rgba(49, 49, 49, .9)',
   },
 })
 

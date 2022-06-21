@@ -1,9 +1,9 @@
-import { Box } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { InitialModal } from '../components/Modals/InitialModal'
 import { PersonalImageContent } from '../components/PersonalImageContent'
+import { VslComponent } from '../components/VslComponent'
 
 import * as S from '../styles/pages/styles'
 
@@ -30,7 +30,9 @@ export default function Home() {
         <InitialModal isOpen={isInitialModal} onClose={() => setIsInitialModal(false)} />
       </S.Content>
 
-      <Box width={'100%'} height={500} />
+      <S.VSLContent>
+        <VslComponent />
+      </S.VSLContent>
 
       <Footer />
     </S.Container>

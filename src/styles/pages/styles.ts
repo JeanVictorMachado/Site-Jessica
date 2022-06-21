@@ -33,3 +33,10 @@ export const PersonalImageContent = chakra(Box, {
     paddingBottom: '70px',
   },
 })
+
+export const VSLContent = chakra(Box, {
+  baseStyle: {
+    width: '100%',
+    backgroundImage: 'linear-gradient(210deg, #f49867, #fff 220%)',
+  },
+})
