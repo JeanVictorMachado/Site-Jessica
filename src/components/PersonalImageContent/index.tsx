@@ -1,5 +1,3 @@
-import { Image } from '@chakra-ui/react'
-
 import * as S from './styles'
 
 export const PersonalImageContent = () => (

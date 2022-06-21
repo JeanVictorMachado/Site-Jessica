@@ -3,6 +3,7 @@ import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { InitialModal } from '../components/Modals/InitialModal'
 import { PersonalImageContent } from '../components/PersonalImageContent'
+import { Testimonial } from '../components/Testimonial'
 import { VslComponent } from '../components/VslComponent'
 
 import * as S from '../styles/pages/styles'
@@ -33,6 +34,10 @@ export default function Home() {
       <S.VSLContent>
         <VslComponent />
       </S.VSLContent>
+
+      <S.TestimonialContent>
+        <Testimonial />
+      </S.TestimonialContent>
 
       <Footer />
     </S.Container>
