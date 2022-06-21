@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Comments } from '../components/Comments'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { InitialModal } from '../components/Modals/InitialModal'
@@ -38,6 +39,10 @@ export default function Home() {
       <S.TestimonialContent>
         <Testimonial />
       </S.TestimonialContent>
+
+      <S.CommentsContent>
+        <Comments />
+      </S.CommentsContent>
 
       <Footer />
     </S.Container>

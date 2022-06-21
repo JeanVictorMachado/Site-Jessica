@@ -48,3 +48,11 @@ export const TestimonialContent = chakra(Box, {
     backgroundImage: 'linear-gradient(210deg, #040c18, #3C0816 220%)',
   },
 })
+
+export const CommentsContent = chakra(Box, {
+  baseStyle: {
+    width: '100%',
+    height: '100%',
+    backgroundImage: 'linear-gradient(210deg, #f49867, #fff 220%)',
+  },
+})

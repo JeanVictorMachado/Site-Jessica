@@ -4,7 +4,7 @@ export const Container = chakra(Flex, {
   baseStyle: {
     maxWidth: '1150px',
     margin: 'auto',
-    padding: ['70px 32px 70px 0px', '100px 32px 70px 0px', '100px 32px 70px 0px'],
+    padding: ['70px 32px 50px 0px', '100px 32px 70px 0px', '100px 32px 70px 0px'],
     justifyContent: ['center'],
     flexWrap: 'wrap',
   },
