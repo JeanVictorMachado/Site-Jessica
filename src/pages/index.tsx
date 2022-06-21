@@ -1,4 +1,6 @@
+import { Box } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
+import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { InitialModal } from '../components/Modals/InitialModal'
 import { PersonalImageContent } from '../components/PersonalImageContent'
@@ -27,6 +29,10 @@ export default function Home() {
 
         <InitialModal isOpen={isInitialModal} onClose={() => setIsInitialModal(false)} />
       </S.Content>
+
+      <Box width={'100%'} height={500} />
+
+      <Footer />
     </S.Container>
   )
 }

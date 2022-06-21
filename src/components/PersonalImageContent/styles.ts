@@ -73,7 +73,7 @@ export const ImageText = chakra(Text, {
   baseStyle: {
     color: '#E6E6E6',
     fontSize: 18,
-    marginTop: 4,
+    marginTop: 3.5,
     marginLeft: 2,
   },
 })

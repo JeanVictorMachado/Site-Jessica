@@ -3,6 +3,7 @@ import { Box, chakra, Flex } from '@chakra-ui/react'
 export const Container = chakra(Flex, {
   baseStyle: {
     width: '100%',
+    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -26,7 +27,7 @@ export const Content = chakra(Box, {
 export const PersonalImageContent = chakra(Box, {
   baseStyle: {
     maxWidth: '1200px',
-    height: ['100%', '100%', 'calc(100vh - 104px)'],
+    height: ['100%', '100%', '100%'],
     margin: 'auto',
     paddingX: '32px',
     paddingBottom: '70px',
