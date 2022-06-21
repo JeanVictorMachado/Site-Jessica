@@ -32,3 +32,12 @@ export const TestimonialTitle = chakra(Text, {
     WebkitTextFillColor: 'transparent',
   },
 })
+
+export const TestimonialImageBox = chakra(Box, {
+  baseStyle: {
+    height: '100%',
+    maxWidth: '300px',
+    marginLeft: 8,
+    marginBottom: 8,
+  },
+})

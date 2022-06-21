@@ -10,41 +10,44 @@ export const Testimonial = () => (
       </S.TestimonialTitle>
     </S.TitleContainer>
 
-    <Box height='100%' maxWidth='300px' marginLeft={8} marginBottom={8}>
+    <S.TestimonialImageBox>
       <Image src='testemunha-6.jpeg' alt='' marginBottom={8} />
-
       <Image src='testemunha-3.jpeg' alt='' />
-    </Box>
+    </S.TestimonialImageBox>
 
-    <Box height='100%' maxWidth='300px' marginLeft={8} marginBottom={8}>
+    <S.TestimonialImageBox>
       <Image src='testemunha-2.jpeg' alt='' />
-    </Box>
+    </S.TestimonialImageBox>
 
-    <Box height='100%' maxWidth='300px' marginLeft={8} marginBottom={8}>
-      <Image src='testemunha-5.jpeg' alt='' />
-    </Box>
+    <S.TestimonialImageBox>
+      <Image src='testemunha-15.jpeg' alt='' />
+    </S.TestimonialImageBox>
 
-    <Box height='100%' maxWidth='300px' marginLeft={8} marginBottom={8}>
+    <S.TestimonialImageBox>
       <Image src='testemunha-10.jpeg' alt='' marginBottom={8} />
       <Image src='testemunha-1.jpeg' alt='' />
-    </Box>
+    </S.TestimonialImageBox>
 
-    <Box height='100%' maxWidth='300px' marginLeft={8} marginBottom={8}>
+    <S.TestimonialImageBox>
       <Image src='testemunha-8.jpeg' alt='' />
-    </Box>
+    </S.TestimonialImageBox>
 
-    <Box height='100%' maxWidth='300px' marginLeft={8} marginBottom={8}>
+    <S.TestimonialImageBox>
       <Image src='testemunha-7.jpeg' alt='' marginBottom={8} />
       <Image src='testemunha-4.jpeg' alt='' />
-    </Box>
+    </S.TestimonialImageBox>
 
-    <Box height='100%' maxWidth='300px' marginLeft={8} marginBottom={8}>
+    <S.TestimonialImageBox>
       <Image src='testemunha-9.jpeg' alt='' />
-    </Box>
+    </S.TestimonialImageBox>
 
-    <Box height='100%' maxWidth='300px' marginLeft={8} marginBottom={8}>
+    <S.TestimonialImageBox>
       <Image src='testemunha-11.jpeg' alt='' marginBottom={8} />
       <Image src='testemunha-12.jpeg' alt='' />
-    </Box>
+    </S.TestimonialImageBox>
+
+    <S.TestimonialImageBox>
+      <Image src='testemunha-5.jpeg' alt='' />
+    </S.TestimonialImageBox>
   </S.Container>
 )
