@@ -5,6 +5,7 @@ export const Container = chakra(Box, {
     maxWidth: '700px',
     margin: 'auto',
     paddingX: '32px',
+    marginBottom: '16px',
   },
 })
 
