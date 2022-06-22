@@ -7,6 +7,6 @@ export default {
   },
   'html::-webkit-scrollbar-thumb': {
     borderRadius: '8px',
-    backgroundColor: '#E6E6E6',
+    backgroundColor: 'rgba(225, 225, 225)',
   },
 }

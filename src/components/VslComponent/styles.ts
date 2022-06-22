@@ -5,6 +5,7 @@ export const Container = chakra(Box, {
     maxWidth: '700px',
     margin: 'auto',
     paddingX: '32px',
+    paddingTop: ['0px', '32px', '32px'],
     marginBottom: '16px',
   },
 })
@@ -12,12 +13,13 @@ export const Container = chakra(Box, {
 export const VSLTitle = chakra(Text, {
   baseStyle: {
     marginTop: ['60px'],
-    marginBottom: 4,
+    marginBottom: 8,
     fontSize: [28, 28, 28],
     lineHeight: 8,
     textAlign: 'center',
     fontWeight: 800,
-    background: 'linear-gradient(210deg, #040c18, #3C0816 220%)',
+    // background: 'linear-gradient(210deg, #040c18, #3C0816 220%)',
+    background: 'linear-gradient(210deg,  #040c18, #7B193F 220%)',
     backgroundClip: 'text',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',

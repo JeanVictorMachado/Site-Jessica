@@ -30,7 +30,8 @@ export const OptionRightContent = chakra(Text, {
     color: 'white',
     fontSize: 18,
     fontWeight: 600,
-    borderBottom: '3px solid #f49867',
+    // borderBottom: '3px solid #f49867',
+    borderBottom: '3px solid #EDAB76',
     cursor: 'pointer',
 
     _hover: {

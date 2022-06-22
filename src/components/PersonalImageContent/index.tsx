@@ -24,9 +24,9 @@ export const PersonalImageContent = () => (
 
     <S.RightContent>
       <S.ImageContainer>
-        <S.ImageContent src='imagen-jessica.png' alt='Imagem de Jéssica Lopes.' />
+        <S.ImageContent src='test.png' alt='Imagem de Jéssica Lopes.' />
 
-        <S.ShadowImage />
+        {/* <S.ShadowImage /> */}
       </S.ImageContainer>
     </S.RightContent>
   </S.Container>

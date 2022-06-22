@@ -3,7 +3,8 @@ import { Box, chakra, Flex, Text } from '@chakra-ui/react'
 export const Container = chakra(Box, {
   baseStyle: {
     width: '100%',
-    backgroundImage: 'linear-gradient(210deg, #040c18, #3C0816 220%)',
+    // backgroundImage: 'linear-gradient(210deg, #040c18, #3C0816 220%)',
+    backgroundImage: 'linear-gradient(210deg, #040c18, #7B193F)',
   },
 })
 

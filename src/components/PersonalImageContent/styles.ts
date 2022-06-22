@@ -4,6 +4,7 @@ export const Container = chakra(Flex, {
   baseStyle: {
     width: '100%',
     marginTop: '50px',
+    paddingBottom: ['0px', '32px', '32px'],
 
     flexDirection: ['column-reverse', 'column-reverse', 'row'],
   },
@@ -34,7 +35,8 @@ export const PresentationText = chakra(Text, {
     fontSize: ['30px', '36px', '40px'],
     fontWeight: 700,
     lineHeight: '46px',
-    background: 'linear-gradient(89.97deg, #f49867 1.84%, #FFF 102.67%)',
+    background: 'linear-gradient(89.97deg, #EDAB76 1.84%, #FFF 102.67%)',
+    // background: 'linear-gradient(89.97deg, #f49867 1.84%, #FFF 102.67%)',
     backgroundClip: 'text',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
@@ -93,7 +95,7 @@ export const RightContent = chakra(Flex, {
 
 export const ImageContainer = chakra(Flex, {
   baseStyle: {
-    width: ['200px', '369px', '369px'],
+    width: ['300px', '450px', '450px'],
     position: 'relative',
   },
 })
@@ -106,9 +108,9 @@ export const ImageContent = chakra(Image, {
 
 export const ShadowImage = chakra(Box, {
   baseStyle: {
-    width: ['158px', '295px', '295px'],
+    width: ['158px', '292px', '292px'],
     height: '30px',
-    marginLeft: ['14px', '25px', '25px'],
+    marginLeft: ['15px', '27px', '27px'],
     background: 'linear-gradient(0deg, #040c18 10%, transparent)',
     position: 'absolute',
     bottom: -1,
